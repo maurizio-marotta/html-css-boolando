@@ -1,0 +1,39 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  min-width: 1080px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+header{
+  background-color: orange;
+  padding: 20px;
+  height: 50px;
+}
+
+header nav ul li{
+  display: inline-block;
+  color: rgb(255, 255, 255);
+}
+
+header nav ul li a{
+  margin: 5px;
+}
+
+a{
+  color: white;
+}
+
+.flex{
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo {
+  width: 17%;
+  margin-left: 33%;
+}

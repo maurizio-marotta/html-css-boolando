@@ -44,6 +44,7 @@ a{
 }
 
 main{
+  margin: 100px;
   margin-top: 50px;
 }
 
@@ -54,12 +55,15 @@ main{
 }
 
 .flex-wrap{
+  display: flex;
   flex-wrap: wrap;
 }
 
 .card{
   width: calc(100% / 3);
   min-width: 250px;
+  padding: 0 10px;
+  margin-bottom: 65px;
 }
 
 .card .card-image{
@@ -107,4 +111,20 @@ main{
 
 .card .card-image .sconti.blocco-sconti{
   background-color: red;
+}
+
+footer{
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(59, 56, 56);
+  color: white;
+  padding: 50px;
+}
+
+footer ul{
+  list-style: none;
+}
+
+footer nav ul li{
+  color: white;
 }
